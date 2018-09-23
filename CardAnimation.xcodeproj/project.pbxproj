@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6614E18721565B2B008EE643 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6614E18621565B2B008EE643 /* CardView.xib */; };
+		6614E18921565B50008EE643 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6614E18821565B50008EE643 /* CardView.swift */; };
 		665CD135214EACF600E90DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665CD134214EACF600E90DF8 /* AppDelegate.swift */; };
 		665CD137214EACF600E90DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665CD136214EACF600E90DF8 /* ViewController.swift */; };
 		665CD13A214EACF600E90DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665CD138214EACF600E90DF8 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6614E18621565B2B008EE643 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		6614E18821565B50008EE643 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		665CD131214EACF600E90DF8 /* CardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		665CD134214EACF600E90DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		665CD136214EACF600E90DF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				665CD13B214EAD1400E90DF8 /* Assets.xcassets */,
 				665CD13D214EAD1400E90DF8 /* LaunchScreen.storyboard */,
 				665CD140214EAD1500E90DF8 /* Info.plist */,
+				6614E18621565B2B008EE643 /* CardView.xib */,
+				6614E18821565B50008EE643 /* CardView.swift */,
 			);
 			path = CardAnimation;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			files = (
 				665CD13F214EAD1400E90DF8 /* LaunchScreen.storyboard in Resources */,
 				665CD13C214EAD1400E90DF8 /* Assets.xcassets in Resources */,
+				6614E18721565B2B008EE643 /* CardView.xib in Resources */,
 				665CD13A214EACF600E90DF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				665CD137214EACF600E90DF8 /* ViewController.swift in Sources */,
+				6614E18921565B50008EE643 /* CardView.swift in Sources */,
 				665CD135214EACF600E90DF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,8 +438,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TFPAT44FW9;
 				INFOPLIST_FILE = CardAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,8 +458,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TFPAT44FW9;
 				INFOPLIST_FILE = CardAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

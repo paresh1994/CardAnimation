@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardView" customModule="CardAnimation" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="UHd-yp-N0U"/>
+                <outlet property="imageViewOne" destination="Mfr-6W-bqe" id="gOG-pq-grV"/>
+                <outlet property="imageViewProfile" destination="tLv-pP-4sY" id="uO9-8A-p3H"/>
+                <outlet property="imageViewThree" destination="Xgb-vJ-omD" id="wEe-kP-eEU"/>
+                <outlet property="imageViewTwo" destination="OK0-bN-ySK" id="TFE-sU-J4D"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="tLv-pP-4sY">
+                    <rect key="frame" x="20" y="20" width="110" height="110"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="tLv-pP-4sY" secondAttribute="height" multiplier="1:1" id="Ndx-Lh-1o9"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card" translatesAutoresizingMaskIntoConstraints="NO" id="OK0-bN-ySK">
+                    <rect key="frame" x="61.5" y="56" width="28" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="X6r-nx-JbB"/>
+                        <constraint firstAttribute="width" constant="28" id="tWG-yi-ryX"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card" translatesAutoresizingMaskIntoConstraints="NO" id="Xgb-vJ-omD">
+                    <rect key="frame" x="83.5" y="68" width="28" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="HGt-ew-QFf"/>
+                        <constraint firstAttribute="width" constant="28" id="Zao-cE-9Dp"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card" translatesAutoresizingMaskIntoConstraints="NO" id="Mfr-6W-bqe">
+                    <rect key="frame" x="39.5" y="68" width="28" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="28" id="9JL-9n-dUo"/>
+                        <constraint firstAttribute="height" constant="38" id="glO-yQ-M5L"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="OK0-bN-ySK" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="OPf-k9-QHe"/>
+                <constraint firstItem="Xgb-vJ-omD" firstAttribute="centerY" secondItem="OK0-bN-ySK" secondAttribute="centerY" constant="12" id="PfF-Yu-rW3"/>
+                <constraint firstItem="OK0-bN-ySK" firstAttribute="leading" secondItem="Mfr-6W-bqe" secondAttribute="trailing" constant="-6" id="RRt-o3-rM4"/>
+                <constraint firstItem="tLv-pP-4sY" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="XdN-PV-uJb"/>
+                <constraint firstItem="Mfr-6W-bqe" firstAttribute="centerY" secondItem="OK0-bN-ySK" secondAttribute="centerY" constant="12" id="bqg-rl-kRJ"/>
+                <constraint firstItem="tLv-pP-4sY" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="iWr-kP-xnx"/>
+                <constraint firstItem="Xgb-vJ-omD" firstAttribute="leading" secondItem="OK0-bN-ySK" secondAttribute="trailing" constant="-6" id="kf5-xa-jjd"/>
+                <constraint firstItem="OK0-bN-ySK" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="myz-9w-SXU"/>
+                <constraint firstItem="tLv-pP-4sY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="uOw-Du-TYZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-32" y="-229"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="card" width="188" height="268"/>
+        <image name="user" width="256" height="256"/>
+    </resources>
+</document>
